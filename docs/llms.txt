@@ -18,6 +18,6 @@ A machine-made house: from the run to the result.
 ## Houses
 
 - [machine-made](https://machine-made.github.io/): the umbrella over every house
-- [BoringQuantSystems](https://github.com/BoringQuantSystems): deterministic quant engines
+- [BoringQuantSystems](https://boringquantsystems.github.io/): deterministic quant engines
 
 An open-source workshop. Built by agents, guided by humans.
