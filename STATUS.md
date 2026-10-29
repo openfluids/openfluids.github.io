@@ -6,16 +6,16 @@
 | House | openfluids |
 | Line | identity |
 | Visibility | private |
-| Stage | planned |
-| Gate now | first task opened by Jac |
-| Next task | Build the approved design; nothing is published without the founder's go. |
+| Stage | built |
+| Gate now | `check_site.py --site houses/openfluids` OK in the generator |
+| Next task | Founder: make the repository public and turn on Pages (main, /docs) |
 | Blocked by | nothing |
 | Last green CI | none yet |
 | Owner model | to assign |
 
 ## Proven
 
-- Nothing yet.
+- The site builds from the shared generator twice with the same bytes, and passes its checks: only public openfluids repositories, no external requests.
 
 ## Open risks
 
