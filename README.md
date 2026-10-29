@@ -1,26 +1,23 @@
 # openfluids.github.io
 
-The openfluids website.
+The openfluids website: open tools for fluid flows. A machine-made house.
 
-> **Status: planned, private.** Nothing is built yet. This repo is managed by
-> Jac, the CEO agent of machine-made (`machine-made/jac`). Work starts when Jac
-> opens its first task.
+The page is built by the machine-made site generator
+([machine-made/machine-made.github.io](https://github.com/machine-made/machine-made.github.io)),
+the same code, look and tab row as every house. This repository holds the built site in `docs/`.
 
-## Mission
+## Change the site
 
-The openfluids site, built from its own heroes: the org hero as the header, each package shown with its hero. Design: the brand canvas (S1).
+The content lives in the generator repository, `houses/openfluids/site.json`, with its public list
+in `houses/openfluids/allow.json`. Build it into this repository and open a pull request:
 
-## First step
+```
+sh publish.sh openfluids ../openfluids.github.io
+```
 
-Build the approved design; nothing is published without the founder's go.
+Do not edit `docs/` by hand.
 
-## Standards
+## Status
 
-Follows the machine-made standards (`machine-made/jac`, `org/STANDARDS.md`):
-C++23 and CUDA 13.3+, Rust 2024 with no unsafe code, Python 3.14+, tests and
-parity before merge, actions pinned to commit SHAs, ASD-STE100 for changelogs,
-comments and errors. Built by agents; no human writes code here.
-
-## Licence
-
-To be confirmed (Apache-2.0 proposed).
+Built. Goes live when the founder makes this repository public and turns on GitHub Pages (source:
+`main`, folder `/docs`).

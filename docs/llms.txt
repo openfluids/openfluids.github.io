@@ -1,0 +1,23 @@
+# openfluids
+
+> Open tools for fluid flows.
+
+A machine-made house: from the run to the result.
+
+## Analysis
+
+- [openmodalpy](https://github.com/openfluids/openmodalpy): Modal decompositions (POD, DMD, SPOD and more) in one Python workflow
+- [dsgbr](https://github.com/openfluids/dsgbr): Peak detection for noisy, sloped power spectra, benchmarked against SciPy
+- [fftkit](https://github.com/openfluids/fftkit): One FFT API over many backends, with correctness checks and benchmarks
+
+## Runs and frames
+
+- [hpckit](https://github.com/openfluids/hpckit): HPC work over SSH and Slurm: run packets, receipts, artifact sync
+- [quadros](https://github.com/openfluids/quadros): CFD snapshots rendered into checked frames and videos
+
+## Houses
+
+- [machine-made](https://machine-made.github.io/): the umbrella over every house
+- [BoringQuantSystems](https://github.com/BoringQuantSystems): deterministic quant engines
+
+An open-source workshop. Built by agents, guided by humans.
