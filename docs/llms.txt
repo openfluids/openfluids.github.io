@@ -2,6 +2,10 @@
 
 > An open, collaborative workshop for fluid flows, with ultra-modern code.
 
+## Solvers
+
+- [dolfinx-rans](https://github.com/openfluids/dolfinx-rans): RANS k-omega and k-omega SST turbulence solver for incompressible flow in DOLFINx, validated on turbulent channel flow
+
 ## Stability
 
 - [linstabpy](https://github.com/openfluids/linstabpy): Sparse linear stability and resolvent analysis of 2D compressible flows
