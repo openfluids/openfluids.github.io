@@ -1,33 +1,41 @@
 # openfluids
 
-> Open tools for fluid flows: state-of-the-art methods, ultra-modern code, for humans and agents.
+> An open workshop for fluid flows: state-of-the-art methods and ultra-modern code.
+
+We build numerical tools for the daily work of flow studies: solving flows, analysing their stability and structure, and running the work on clusters. Each tool does one job, is tested against reference results, and is made to be read, reused and combined, by humans and agents alike.
 
 ## Stability
 
-- [linstabpy](https://github.com/openfluids/linstabpy): Sparse linear stability and resolvent analysis of 2D compressible flows
-- [nekStab](https://github.com/nekStab/nekStab): Stability, bifurcation and sensitivity analysis for Nek5000
+- [linstabpy](https://github.com/openfluids/linstabpy): Sparse linear stability and resolvent analysis of 2D compressible flows. ([documentation](https://linstabpy.vercel.app/))
+- [nekStab](https://github.com/nekStab/nekStab): Stability, bifurcation and sensitivity analysis for Nek5000.
 
 ## Analysis
 
-- [openmodalpy](https://github.com/openfluids/openmodalpy): Modal decompositions (POD, DMD, SPOD and more) in one Python workflow
-- [dynachaos](https://openfluids.github.io/dynachaos/): Dynamical-systems analysis of time signals: Lyapunov exponents, recurrence, entropy and coupled-map lattices, with Rust-accelerated kernels
-- [dsgbr](https://github.com/openfluids/dsgbr): Peak detection for noisy, sloped power spectra, benchmarked against SciPy
-- [fftkit](https://github.com/openfluids/fftkit): One FFT API over many backends, with correctness checks and benchmarks
-- [chaos-atlas](https://openfluids.github.io/chaos-atlas/): Interactive explorer for chaotic systems: strange attractors, bifurcations, fractals and coupled-map-lattice patterns, in the browser
+- [openmodalpy](https://github.com/openfluids/openmodalpy): Nine modal decompositions behind one API: POD, mPOD, PSD-POD, SPOD, ST-POD, DMD/HODMD and BSMD, from a config file or a CLI. Pure NumPy and SciPy. ([pypi](https://pypi.org/project/openmodalpy/))
+- [dynachaos](https://github.com/openfluids/dynachaos/): Dynamical-systems analysis of time signals: Lyapunov exponents, recurrence, entropy and coupled-map lattices, with Rust-accelerated kernels. ([site](https://openfluids.github.io/dynachaos/))
+- [fftkit](https://github.com/openfluids/fftkit): Spectra of physical signals, and one FFT API over eight backends. `spectrum()` handles resampling, detrending and windowing, and reports what it did; `backend=` swaps the engine without touching your code.
+- [dsgbr](https://github.com/openfluids/dsgbr): Peak detection for noisy power spectra that slope over decades, scored against a rolling-median baseline instead of a fixed threshold.
+- [chaos-atlas](https://github.com/openfluids/chaos-atlas/): An interactive explorer for chaotic systems: strange attractors, bifurcations, fractals and coupled-map-lattice patterns, in the browser. ([site](https://openfluids.github.io/chaos-atlas/))
 
 ## Optimisation
 
-- [organa](https://github.com/openfluids/organa): Adjoint topology optimisation for conjugate heat transfer, in parallel with MPI
+- [organa](https://github.com/openfluids/organa): Adjoint topology optimisation for conjugate heat transfer, in parallel with MPI.
 
 ## Runs and frames
 
-- [hpckit](https://github.com/openfluids/hpckit): HPC work over SSH and Slurm: run packets, receipts, artifact sync
-- [quadros](https://github.com/openfluids/quadros): CFD snapshots rendered into checked frames and videos
+- [hpckit](https://github.com/openfluids/hpckit): Drives Slurm work from a local checkout: one environment per commit, run packets, submission and polling, receipts and artifact sync.
+- [quadros](https://github.com/openfluids/quadros): Turns simulation snapshots into checked frames and videos, locally, over SSH or in a scheduler job, with a manifest of what it rendered. Nek5000 built in; other formats through PyVista.
 
 ## Solvers
 
-- [dolfinx-rans](https://github.com/openfluids/dolfinx-rans): RANS k-omega and k-omega SST turbulence solver for incompressible flow in DOLFINx, validated on turbulent channel flow
+- [dolfinx-rans](https://github.com/openfluids/dolfinx-rans): RANS k-omega and k-omega SST turbulence solver for incompressible flow in DOLFINx, validated on turbulent channel flow.
 
-## On the bench
+## How they fit
 
-More is taking shape: new solvers, GPU kernels and tools for studying how flows behave. They will open as they mature.
+`openmodalpy` runs its transforms through `fftkit`, so a backend installed once serves both. `hpckit` submits the run and `quadros` renders what comes back; they stay separate installs, so a machine that only submits jobs never needs VTK.
+
+## Under development
+
+More is taking shape in the workshop: new solvers, GPU kernels and tools for studying how flows behave. They will go public as they mature.
+
+All openfluids software is provided "as is", without warranty of any kind. Each repository's LICENSE sets the terms of use.

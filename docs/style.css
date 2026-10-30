@@ -109,7 +109,22 @@ h2 {
 
 .projects p { margin: 2px 0 0; color: var(--muted); }
 
-.bench { margin: 8px 0 0; color: var(--muted); max-width: 38rem; }
+.intro { margin: 28px 0 8px; max-width: 40rem; }
+
+.projects a.extra {
+  margin-left: 10px;
+  font-size: 0.8125rem;
+  letter-spacing: 0.06em;
+  text-transform: uppercase;
+}
+
+.prose { margin: 8px 0 0; color: var(--muted); max-width: 40rem; }
+
+code {
+  font-family: ui-monospace, SFMono-Regular, Menlo, Consolas, monospace;
+  font-size: 0.9em;
+  color: var(--text);
+}
 
 footer {
   margin-top: 48px;
@@ -118,6 +133,7 @@ footer {
   font-size: 0.9375rem;
 }
 footer p { margin: 0; padding-top: 24px; border-top: 1px solid var(--line); }
+footer p.org { padding-top: 12px; border-top: 0; }
 
 @media (max-width: 480px) {
   .masthead { padding-top: 48px; padding-bottom: 28px; gap: 16px; }
