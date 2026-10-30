@@ -54,9 +54,9 @@ a:focus-visible { outline: 2px solid var(--cyan); outline-offset: 3px; border-ra
 
 .mark {
   flex: none;
-  width: 64px;
-  height: 64px;
-  border-radius: 14px;
+  width: 112px;
+  height: 112px;
+  border-radius: 22px;
   background: var(--surface);
   color: var(--muted);
   font-size: 0.75rem;
@@ -121,5 +121,5 @@ footer p { margin: 0; padding-top: 24px; border-top: 1px solid var(--line); }
 
 @media (max-width: 480px) {
   .masthead { padding-top: 48px; padding-bottom: 28px; gap: 16px; }
-  .mark { width: 56px; height: 56px; border-radius: 12px; }
+  .mark { width: 80px; height: 80px; border-radius: 16px; }
 }
