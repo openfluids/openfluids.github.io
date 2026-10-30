@@ -2,31 +2,31 @@
 
 > An open, collaborative workshop for fluid flows, with ultra-modern code.
 
-## Solvers
-
-- [dolfinx-rans](https://github.com/openfluids/dolfinx-rans): RANS k-omega and k-omega SST turbulence solver for incompressible flow in DOLFINx, validated on turbulent channel flow
-
 ## Stability
 
 - [linstabpy](https://github.com/openfluids/linstabpy): Sparse linear stability and resolvent analysis of 2D compressible flows
 - [nekStab](https://github.com/nekStab/nekStab): Stability, bifurcation and sensitivity analysis for Nek5000
 
-## Optimisation
-
-- [organa](https://github.com/openfluids/organa): Adjoint topology optimisation for conjugate heat transfer, in parallel with MPI
-
 ## Analysis
 
-- [dynachaos](https://openfluids.github.io/dynachaos/): Dynamical-systems analysis of time signals: Lyapunov exponents, recurrence, entropy and coupled-map lattices, with Rust-accelerated kernels
 - [openmodalpy](https://github.com/openfluids/openmodalpy): Modal decompositions (POD, DMD, SPOD and more) in one Python workflow
+- [dynachaos](https://openfluids.github.io/dynachaos/): Dynamical-systems analysis of time signals: Lyapunov exponents, recurrence, entropy and coupled-map lattices, with Rust-accelerated kernels
 - [dsgbr](https://github.com/openfluids/dsgbr): Peak detection for noisy, sloped power spectra, benchmarked against SciPy
 - [fftkit](https://github.com/openfluids/fftkit): One FFT API over many backends, with correctness checks and benchmarks
 - [chaos-atlas](https://openfluids.github.io/chaos-atlas/): Interactive explorer for chaotic systems: strange attractors, bifurcations, fractals and coupled-map-lattice patterns, in the browser
+
+## Optimisation
+
+- [organa](https://github.com/openfluids/organa): Adjoint topology optimisation for conjugate heat transfer, in parallel with MPI
 
 ## Runs and frames
 
 - [hpckit](https://github.com/openfluids/hpckit): HPC work over SSH and Slurm: run packets, receipts, artifact sync
 - [quadros](https://github.com/openfluids/quadros): CFD snapshots rendered into checked frames and videos
+
+## Solvers
+
+- [dolfinx-rans](https://github.com/openfluids/dolfinx-rans): RANS k-omega and k-omega SST turbulence solver for incompressible flow in DOLFINx, validated on turbulent channel flow
 
 ## On the bench
 
