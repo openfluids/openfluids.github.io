@@ -1,6 +1,6 @@
 # openfluids
 
-> An open, collaborative workshop for fluid flows, with ultra-modern code.
+> Open tools for fluid flows: state-of-the-art methods, ultra-modern code, for humans and agents.
 
 ## Stability
 
@@ -30,4 +30,4 @@
 
 ## On the bench
 
-More is taking shape in the workshop: new solvers, GPU kernels and tools for studying how flows behave. They will open as they mature.
+More is taking shape: new solvers, GPU kernels and tools for studying how flows behave. They will open as they mature.
