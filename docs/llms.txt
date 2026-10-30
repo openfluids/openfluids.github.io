@@ -2,6 +2,15 @@
 
 > An open, collaborative workshop for fluid flows, with ultra-modern code.
 
+## Stability
+
+- [linstabpy](https://github.com/openfluids/linstabpy): Sparse linear stability and resolvent analysis of 2D compressible flows
+- [nekStab](https://github.com/nekStab/nekStab): Stability, bifurcation and sensitivity analysis for Nek5000
+
+## Optimisation
+
+- [organa](https://github.com/openfluids/organa): Adjoint topology optimisation for conjugate heat transfer, in parallel with MPI
+
 ## Analysis
 
 - [openmodalpy](https://github.com/openfluids/openmodalpy): Modal decompositions (POD, DMD, SPOD and more) in one Python workflow
