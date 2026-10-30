@@ -16,6 +16,8 @@
 - [openmodalpy](https://github.com/openfluids/openmodalpy): Modal decompositions (POD, DMD, SPOD and more) in one Python workflow
 - [dsgbr](https://github.com/openfluids/dsgbr): Peak detection for noisy, sloped power spectra, benchmarked against SciPy
 - [fftkit](https://github.com/openfluids/fftkit): One FFT API over many backends, with correctness checks and benchmarks
+- [dynachaos](https://github.com/openfluids/dynachaos): Dynamical-systems analysis of time signals: Lyapunov exponents, recurrence, entropy and coupled-map lattices, with Rust-accelerated kernels
+- [chaos-atlas](https://openfluids.github.io/chaos-atlas/): Interactive explorer for chaotic systems: strange attractors, bifurcations, fractals and coupled-map-lattice patterns, in the browser
 
 ## Runs and frames
 
