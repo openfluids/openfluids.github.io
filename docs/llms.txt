@@ -1,0 +1,18 @@
+# openfluids
+
+> An open, collaborative workshop for fluid flows, with ultra-modern code.
+
+## Analysis
+
+- [openmodalpy](https://github.com/openfluids/openmodalpy): Modal decompositions (POD, DMD, SPOD and more) in one Python workflow
+- [dsgbr](https://github.com/openfluids/dsgbr): Peak detection for noisy, sloped power spectra, benchmarked against SciPy
+- [fftkit](https://github.com/openfluids/fftkit): One FFT API over many backends, with correctness checks and benchmarks
+
+## Runs and frames
+
+- [hpckit](https://github.com/openfluids/hpckit): HPC work over SSH and Slurm: run packets, receipts, artifact sync
+- [quadros](https://github.com/openfluids/quadros): CFD snapshots rendered into checked frames and videos
+
+## On the bench
+
+More is taking shape in the workshop: new solvers, GPU kernels and tools for studying how flows behave. They will open as they mature.
