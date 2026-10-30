@@ -4,7 +4,7 @@
 <meta charset="utf-8">
 <meta name="viewport" content="width=device-width, initial-scale=1">
 <title>openfluids</title>
-<meta name="description" content="Open tools for fluid flows: state-of-the-art methods, ultra-modern code, for humans and agents.">
+<meta name="description" content="An open workshop for fluid flows: state-of-the-art methods and ultra-modern code.">
 <meta name="color-scheme" content="dark">
 <meta name="theme-color" content="#0D1116">
 <link rel="icon" href="https://avatars.githubusercontent.com/u/295171292?s=64&amp;v=4" type="image/png">
@@ -16,53 +16,59 @@
 <img class="mark" src="https://avatars.githubusercontent.com/u/295171292?s=320&amp;v=4" width="112" height="112" alt="openfluids logo">
 <div>
 <h1>openfluids</h1>
-<p class="tagline">Open tools for fluid flows: state-of-the-art methods, ultra-modern code, for humans and agents.</p>
+<p class="tagline">An open workshop for fluid flows: state-of-the-art methods and ultra-modern code.</p>
 </div>
 </header>
 <main id="main" class="wrap">
+<p class="intro">We build numerical tools for the daily work of flow studies: solving flows, analysing their stability and structure, and running the work on clusters. Each tool does one job, is tested against reference results, and is made to be read, reused and combined, by humans and agents alike.</p>
 <section aria-labelledby="stability">
 <h2 id="stability">Stability</h2>
 <ul class="projects">
-<li><a href="https://github.com/openfluids/linstabpy">linstabpy</a><p>Sparse linear stability and resolvent analysis of 2D compressible flows</p></li>
-<li><a href="https://github.com/nekStab/nekStab">nekStab</a><p>Stability, bifurcation and sensitivity analysis for Nek5000</p></li>
+<li><a href="https://github.com/openfluids/linstabpy">linstabpy</a> <a class="extra" href="https://linstabpy.vercel.app/">documentation</a><p>Sparse linear stability and resolvent analysis of 2D compressible flows.</p></li>
+<li><a href="https://github.com/nekStab/nekStab">nekStab</a><p>Stability, bifurcation and sensitivity analysis for Nek5000.</p></li>
 </ul>
 </section>
 <section aria-labelledby="analysis">
 <h2 id="analysis">Analysis</h2>
 <ul class="projects">
-<li><a href="https://github.com/openfluids/openmodalpy">openmodalpy</a><p>Modal decompositions (POD, DMD, SPOD and more) in one Python workflow</p></li>
-<li><a href="https://openfluids.github.io/dynachaos/">dynachaos</a><p>Dynamical-systems analysis of time signals: Lyapunov exponents, recurrence, entropy and coupled-map lattices, with Rust-accelerated kernels</p></li>
-<li><a href="https://github.com/openfluids/dsgbr">dsgbr</a><p>Peak detection for noisy, sloped power spectra, benchmarked against SciPy</p></li>
-<li><a href="https://github.com/openfluids/fftkit">fftkit</a><p>One FFT API over many backends, with correctness checks and benchmarks</p></li>
-<li><a href="https://openfluids.github.io/chaos-atlas/">chaos-atlas</a><p>Interactive explorer for chaotic systems: strange attractors, bifurcations, fractals and coupled-map-lattice patterns, in the browser</p></li>
+<li><a href="https://github.com/openfluids/openmodalpy">openmodalpy</a> <a class="extra" href="https://pypi.org/project/openmodalpy/">pypi</a><p>Nine modal decompositions behind one API: POD, mPOD, PSD-POD, SPOD, ST-POD, DMD/HODMD and BSMD, from a config file or a CLI. Pure NumPy and SciPy.</p></li>
+<li><a href="https://github.com/openfluids/dynachaos/">dynachaos</a> <a class="extra" href="https://openfluids.github.io/dynachaos/">site</a><p>Dynamical-systems analysis of time signals: Lyapunov exponents, recurrence, entropy and coupled-map lattices, with Rust-accelerated kernels.</p></li>
+<li><a href="https://github.com/openfluids/fftkit">fftkit</a><p>Spectra of physical signals, and one FFT API over eight backends. <code>spectrum()</code> handles resampling, detrending and windowing, and reports what it did; <code>backend=</code> swaps the engine without touching your code.</p></li>
+<li><a href="https://github.com/openfluids/dsgbr">dsgbr</a><p>Peak detection for noisy power spectra that slope over decades, scored against a rolling-median baseline instead of a fixed threshold.</p></li>
+<li><a href="https://github.com/openfluids/chaos-atlas/">chaos-atlas</a> <a class="extra" href="https://openfluids.github.io/chaos-atlas/">site</a><p>An interactive explorer for chaotic systems: strange attractors, bifurcations, fractals and coupled-map-lattice patterns, in the browser.</p></li>
 </ul>
 </section>
 <section aria-labelledby="optimisation">
 <h2 id="optimisation">Optimisation</h2>
 <ul class="projects">
-<li><a href="https://github.com/openfluids/organa">organa</a><p>Adjoint topology optimisation for conjugate heat transfer, in parallel with MPI</p></li>
+<li><a href="https://github.com/openfluids/organa">organa</a><p>Adjoint topology optimisation for conjugate heat transfer, in parallel with MPI.</p></li>
 </ul>
 </section>
 <section aria-labelledby="runs-and-frames">
 <h2 id="runs-and-frames">Runs and frames</h2>
 <ul class="projects">
-<li><a href="https://github.com/openfluids/hpckit">hpckit</a><p>HPC work over SSH and Slurm: run packets, receipts, artifact sync</p></li>
-<li><a href="https://github.com/openfluids/quadros">quadros</a><p>CFD snapshots rendered into checked frames and videos</p></li>
+<li><a href="https://github.com/openfluids/hpckit">hpckit</a><p>Drives Slurm work from a local checkout: one environment per commit, run packets, submission and polling, receipts and artifact sync.</p></li>
+<li><a href="https://github.com/openfluids/quadros">quadros</a><p>Turns simulation snapshots into checked frames and videos, locally, over SSH or in a scheduler job, with a manifest of what it rendered. Nek5000 built in; other formats through PyVista.</p></li>
 </ul>
 </section>
 <section aria-labelledby="solvers">
 <h2 id="solvers">Solvers</h2>
 <ul class="projects">
-<li><a href="https://github.com/openfluids/dolfinx-rans">dolfinx-rans</a><p>RANS k-omega and k-omega SST turbulence solver for incompressible flow in DOLFINx, validated on turbulent channel flow</p></li>
+<li><a href="https://github.com/openfluids/dolfinx-rans">dolfinx-rans</a><p>RANS k-omega and k-omega SST turbulence solver for incompressible flow in DOLFINx, validated on turbulent channel flow.</p></li>
 </ul>
 </section>
-<section aria-labelledby="bench">
-<h2 id="bench">On the bench</h2>
-<p class="bench">More is taking shape: new solvers, GPU kernels and tools for studying how flows behave. They will open as they mature.</p>
+<section aria-labelledby="how-they-fit">
+<h2 id="how-they-fit">How they fit</h2>
+<p class="prose"><code>openmodalpy</code> runs its transforms through <code>fftkit</code>, so a backend installed once serves both. <code>hpckit</code> submits the run and <code>quadros</code> renders what comes back; they stay separate installs, so a machine that only submits jobs never needs VTK.</p>
+</section>
+<section aria-labelledby="under-development">
+<h2 id="under-development">Under development</h2>
+<p class="prose">More is taking shape in the workshop: new solvers, GPU kernels and tools for studying how flows behave. They will go public as they mature.</p>
 </section>
 </main>
 <footer class="wrap">
-<p><a href="https://github.com/openfluids">github.com/openfluids</a></p>
+<p>All openfluids software is provided "as is", without warranty of any kind. Each repository's LICENSE sets the terms of use.</p>
+<p class="org"><a href="https://github.com/openfluids">github.com/openfluids</a></p>
 </footer>
 </body>
 </html>
