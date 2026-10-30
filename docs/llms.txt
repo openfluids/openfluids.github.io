@@ -2,8 +2,6 @@
 
 > Open tools for fluid flows.
 
-A machine-made house: from the run to the result.
-
 ## Analysis
 
 - [openmodalpy](https://github.com/openfluids/openmodalpy): Modal decompositions (POD, DMD, SPOD and more) in one Python workflow
@@ -14,10 +12,3 @@ A machine-made house: from the run to the result.
 
 - [hpckit](https://github.com/openfluids/hpckit): HPC work over SSH and Slurm: run packets, receipts, artifact sync
 - [quadros](https://github.com/openfluids/quadros): CFD snapshots rendered into checked frames and videos
-
-## Houses
-
-- [machine-made](https://machine-made.github.io/): the umbrella over every house
-- [BoringQuantSystems](https://boringquantsystems.github.io/): deterministic quant engines
-
-An open-source workshop. Built by agents, guided by humans.
