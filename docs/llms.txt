@@ -19,7 +19,7 @@ We build numerical tools for the daily work of flow studies: solving flows, anal
 
 ## Optimisation
 
-- [organa](https://github.com/openfluids/organa): Adjoint topology optimisation for conjugate heat transfer, in parallel with MPI.
+- organa (soon): Adjoint topology optimisation for conjugate heat transfer, in parallel with MPI.
 
 ## Runs and frames
 
