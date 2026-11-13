@@ -1,6 +1,4 @@
-# openfluids.github.io
-
-The openfluids website: an open, collaborative workshop for fluid flows.
+`openfluids.github.io` is the openfluids website: an open, collaborative workshop for fluid flows.
 
 A small static site: `docs/index.html`, `docs/style.css` and `docs/llms.txt`. No build step.
 
