@@ -1,7 +1,7 @@
 @font-face{font-family:"machine-made Weft";src:url(fonts/mm-weft.woff2) format("woff2");font-weight:100 900;font-style:normal;font-display:swap}
 @font-face{font-family:"Lato";src:url(fonts/lato-400.woff2) format("woff2");font-weight:400;font-style:normal;font-display:swap}
 :root{--bg:#0d1116;--fg:#e6eef2;--muted:#8395a0;--accent:#5cc8d6;--edge:#25292d;--font:"Lato", system-ui, -apple-system, "Segoe UI", Roboto, sans-serif;--mono:"machine-made Weft", ui-monospace, "SF Mono", Menlo, Consolas, monospace;--fs:0.9375rem;--ls:1.4375rem;}
-/* The colours, the fonts and the sizes of a house come first, from build.py (:root). */
+/* The colours, the fonts and the sizes of a house come first (:root). */
 
 :root {
   --gutter: 16px;
@@ -105,6 +105,7 @@ a:focus-visible {
 .bar a {
   padding-block: 6px;
   color: var(--muted);
+  overflow-wrap: anywhere;
 }
 
 .bar a[aria-current="page"] {
@@ -184,6 +185,7 @@ a:focus-visible {
   display: grid;
   gap: 4px;
   min-width: 0;
+  overflow: hidden;
 }
 
 .pic {
