@@ -1,3 +1,5 @@
+![openfluids.github.io banner](https://raw.githubusercontent.com/openfluids/openfluids.github.io/main/assets/readme-banner-v3.jpg)
+
 [![License](https://img.shields.io/badge/license-Apache--2.0-blue.svg)](LICENSE)
 
 `openfluids.github.io` is the openfluids website: an open, collaborative workshop for fluid flows.
