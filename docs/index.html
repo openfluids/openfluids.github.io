@@ -8,8 +8,17 @@
 <meta name="color-scheme" content="dark">
 <meta name="theme-color" content="#0d1116">
 <link rel="icon" href="mark.svg" type="image/svg+xml">
+<meta property="og:type" content="website">
+<meta property="og:title" content="openfluids">
+<meta property="og:description" content="Open tools for fluid flows: state-of-the-art methods, ultra-modern low-memory code, for humans and agents.">
+<meta property="og:url" content="https://openfluids.github.io/">
+<meta property="og:image" content="https://openfluids.github.io/img/banner.jpg">
+<meta property="og:image:width" content="1408">
+<meta property="og:image:height" content="469">
+<meta property="og:image:alt" content="openfluids">
+<meta name="twitter:card" content="summary_large_image">
 <link rel="preload" href="fonts/mm-weft.woff2" as="font" type="font/woff2" crossorigin>
-<link rel="preload" href="fonts/lato-400.woff2" as="font" type="font/woff2" crossorigin>
+<link rel="preload" href="fonts/mm-sans.woff2" as="font" type="font/woff2" crossorigin>
 <link rel="stylesheet" href="style.css">
 </head>
 <body>
@@ -17,8 +26,9 @@
 <header class="wrap">
 <nav class="bar" aria-label="Sites">
 <a href="https://machine-made.github.io/">machine-made</a>
-<a href="https://openfluids.github.io/" aria-current="page">openfluids</a>
+<span aria-current="page">openfluids</span>
 <a href="https://boringquantsystems.github.io/">BoringQuantSystems</a>
+<a href="https://machine-made.github.io/type/">type</a>
 </nav>
 <h1><img class="banner" src="img/banner.jpg" width="1408" height="469" alt="openfluids"></h1>
 </header>
@@ -30,31 +40,31 @@
 <section aria-labelledby="g-stability">
 <h2 class="lbl" id="g-stability">Stability</h2>
 <ul class="grid">
-<li class="plate"><a class="pic" href="https://github.com/openfluids/linstabpy" aria-label="linstabpy repository"><img src="img/linstabpy.jpg" width="704" height="235" loading="lazy" alt=""></a><a class="nm" href="https://linstabpy.vercel.app/">linstabpy</a><span class="ds">linear stability and resolvent analysis</span></li>
-<li class="plate"><a class="whole" href="https://github.com/nekStab/nekStab"><img src="img/nekStab.jpg" width="704" height="235" loading="lazy" alt=""><span class="nm">nekStab</span><span class="ds">stability and bifurcation for Nek5000</span></a></li>
+<li class="plate"><a class="pic" href="https://github.com/openfluids/linstabpy" aria-label="linstabpy"><img src="img/linstabpy.jpg" width="704" height="235" loading="lazy" alt=""></a><span class="ds">linear stability and resolvent analysis <a class="nm" href="https://linstabpy.vercel.app/" aria-label="linstabpy docs">docs</a></span></li>
+<li class="plate"><a class="pic" href="https://github.com/nekStab/nekStab" aria-label="nekStab"><img src="img/nekStab.jpg" width="704" height="235" loading="lazy" alt=""></a><span class="ds">stability and bifurcation for Nek5000</span></li>
 </ul>
 </section>
 <section aria-labelledby="g-analysis">
 <h2 class="lbl" id="g-analysis">Analysis</h2>
 <ul class="grid">
-<li class="plate"><a class="whole" href="https://github.com/openfluids/openmodalpy"><img src="img/openmodalpy.jpg" width="704" height="235" loading="lazy" alt=""><span class="nm">openmodalpy</span><span class="ds">nine modal decompositions, one API</span></a></li>
-<li class="plate"><a class="pic" href="https://github.com/openfluids/dynachaos" aria-label="dynachaos repository"><img src="img/dynachaos.jpg" width="704" height="235" loading="lazy" alt=""></a><a class="nm" href="https://openfluids.github.io/dynachaos/">dynachaos</a><span class="ds">Lyapunov exponents, recurrence, entropy</span></li>
-<li class="plate"><a class="whole" href="https://github.com/openfluids/fftkit"><img src="img/fftkit.jpg" width="704" height="235" loading="lazy" alt=""><span class="nm">fftkit</span><span class="ds">spectra, one FFT API over eight backends</span></a></li>
-<li class="plate"><a class="whole" href="https://github.com/openfluids/dsgbr"><img src="img/dsgbr.jpg" width="704" height="235" loading="lazy" alt=""><span class="nm">dsgbr</span><span class="ds">peaks in noisy, sloped spectra</span></a></li>
-<li class="plate"><a class="pic" href="https://github.com/openfluids/chaos-atlas" aria-label="chaos-atlas repository"><img src="img/chaos-atlas.jpg" width="704" height="235" loading="lazy" alt=""></a><a class="nm" href="https://openfluids.github.io/chaos-atlas/">chaos-atlas</a><span class="ds">chaotic systems in the browser</span></li>
+<li class="plate"><a class="pic" href="https://github.com/openfluids/openmodalpy" aria-label="openmodalpy"><img src="img/openmodalpy.jpg" width="704" height="235" loading="lazy" alt=""></a><span class="ds">nine modal decompositions, one API</span></li>
+<li class="plate"><a class="pic" href="https://github.com/openfluids/dynachaos" aria-label="dynachaos"><img src="img/dynachaos.jpg" width="704" height="235" loading="lazy" alt=""></a><span class="ds">Lyapunov exponents, recurrence, entropy <a class="nm" href="https://openfluids.github.io/dynachaos/" aria-label="dynachaos site">site</a></span></li>
+<li class="plate"><a class="pic" href="https://github.com/openfluids/fftkit" aria-label="fftkit"><img src="img/fftkit.jpg" width="704" height="235" loading="lazy" alt=""></a><span class="ds">spectra, one FFT API over eight backends</span></li>
+<li class="plate"><a class="pic" href="https://github.com/openfluids/dsgbr" aria-label="dsgbr"><img src="img/dsgbr.jpg" width="704" height="235" loading="lazy" alt=""></a><span class="ds">peaks in noisy, sloped spectra</span></li>
+<li class="plate"><a class="pic" href="https://github.com/openfluids/chaos-atlas" aria-label="chaos-atlas"><img src="img/chaos-atlas.jpg" width="704" height="235" loading="lazy" alt=""></a><span class="ds">chaotic systems in the browser <a class="nm" href="https://openfluids.github.io/chaos-atlas/" aria-label="chaos-atlas site">site</a></span></li>
 </ul>
 </section>
 <section aria-labelledby="g-solvers">
 <h2 class="lbl" id="g-solvers">Solvers</h2>
 <ul class="grid">
-<li class="plate"><a class="whole" href="https://github.com/openfluids/dolfinx-rans"><img src="img/dolfinx-rans.jpg" width="704" height="235" loading="lazy" alt=""><span class="nm">dolfinx-rans</span><span class="ds">RANS turbulence in DOLFINx</span></a></li>
+<li class="plate"><a class="pic" href="https://github.com/openfluids/dolfinx-rans" aria-label="dolfinx-rans"><img src="img/dolfinx-rans.jpg" width="704" height="235" loading="lazy" alt=""></a><span class="ds">RANS turbulence in DOLFINx</span></li>
 </ul>
 </section>
 <section aria-labelledby="g-runs">
 <h2 class="lbl" id="g-runs">Runs</h2>
 <ul class="grid">
-<li class="plate"><a class="whole" href="https://github.com/openfluids/hpckit"><img src="img/hpckit.jpg" width="704" height="235" loading="lazy" alt=""><span class="nm">hpckit</span><span class="ds">Slurm runs from a local checkout</span></a></li>
-<li class="plate"><a class="whole" href="https://github.com/openfluids/quadros"><img src="img/quadros.jpg" width="704" height="235" loading="lazy" alt=""><span class="nm">quadros</span><span class="ds">snapshots to frames and videos</span></a></li>
+<li class="plate"><a class="pic" href="https://github.com/openfluids/hpckit" aria-label="hpckit"><img src="img/hpckit.jpg" width="704" height="235" loading="lazy" alt=""></a><span class="ds">Slurm runs from a local checkout</span></li>
+<li class="plate"><a class="pic" href="https://github.com/openfluids/quadros" aria-label="quadros"><img src="img/quadros.jpg" width="704" height="235" loading="lazy" alt=""></a><span class="ds">snapshots to frames and videos</span></li>
 </ul>
 </section>
 </main>
