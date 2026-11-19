@@ -16,4 +16,4 @@
 
 ## Open risks
 
-- The logo and favicon load from the GitHub avatar URL of the org.
+- None known.
