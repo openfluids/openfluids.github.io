@@ -6,7 +6,7 @@ Open code for fluid mechanics.
 
 ## Stability
 
-- [linstabpy](https://github.com/openfluids/linstabpy): linear stability and resolvent analysis ([site](https://linstabpy.vercel.app/))
+- [linstabpy](https://github.com/openfluids/linstabpy): linear stability and resolvent analysis ([docs](https://linstabpy.vercel.app/))
 - [nekStab](https://github.com/nekStab/nekStab): stability and bifurcation for Nek5000
 
 ## Analysis
@@ -31,3 +31,4 @@ Open code for fluid mechanics.
 - [machine-made](https://machine-made.github.io/)
 - [openfluids](https://openfluids.github.io/)
 - [BoringQuantSystems](https://boringquantsystems.github.io/)
+- [type](https://machine-made.github.io/type/)
