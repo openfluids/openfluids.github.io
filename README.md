@@ -15,7 +15,7 @@ with its public list in `houses/openfluids/allow.json`. From a checkout of that 
 checkout of this one and open a pull request here:
 
 ```
-sh publish.sh openfluids PATH_TO_THIS_CHECKOUT
+sh publish.sh openfluids "PATH_TO_THIS_CHECKOUT"
 ```
 
 Do not edit `docs/` by hand. GitHub Pages serves `main`, folder `/docs`.
