@@ -12,7 +12,7 @@
 
 ## Proven
 
-- Hand-written static page: no build step, no web fonts, no font files.
+- Built by the machine-made site generator. The page is set in machine-made Weft and machine-made Sans, files in `docs/fonts/` with their licences; it loads no other font and makes no external request.
 
 ## Open risks
 
