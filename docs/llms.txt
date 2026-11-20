@@ -2,8 +2,6 @@
 
 > Open tools for fluid flows: state-of-the-art methods, ultra-modern low-memory code, for humans and agents.
 
-Open code for fluid mechanics.
-
 ## Stability
 
 - [linstabpy](https://github.com/openfluids/linstabpy): linear stability and resolvent analysis ([docs](https://linstabpy.vercel.app/))
